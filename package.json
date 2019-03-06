@@ -1,0 +1,18 @@
+{
+  "name": "@titanium/eslint-config",
+  "version": "0.0.1",
+  "description": "ESLint configuration for Titanium native mobile app projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Brenton House",
+    "email": "brenton.house@gmail.com",
+    "url": "https://brenton.house"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@geek/eslint-config": "0.0.6"
+  }
+}
