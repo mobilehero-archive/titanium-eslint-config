@@ -1,6 +1,6 @@
 {
   "name": "@titanium/eslint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ESLint configuration for Titanium native mobile app projects",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@geek/eslint-config": "0.0.6"
+    "@geek/eslint-config": "0.0.7"
   }
 }
