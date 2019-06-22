@@ -1,6 +1,7 @@
 # @titanium/eslint-config
 
-![https://www.npmjs.com/package/@titanium/eslint-config](https://www.npmjs.com/package/@titanium/eslint-config) 
+
+[![@titanium/eslint-config](https://img.shields.io/npm/v/@titanium/eslint-config.png)](https://www.npmjs.com/package/@titanium/eslint-config)
 
 ## 📝 Description
 
