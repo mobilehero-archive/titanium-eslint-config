@@ -1,18 +1,32 @@
 {
-  "name": "@titanium/eslint-config",
-  "version": "0.0.4",
-  "description": "ESLint configuration for Titanium native mobile app projects",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": {
-    "name": "Brenton House",
-    "email": "brenton.house@gmail.com",
-    "url": "https://brenton.house"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "@geek/eslint-config": "0.0.7"
-  }
+	"name": "@titanium/eslint-config",
+	"version": "0.0.5",
+	"description": "ESLint configuration for Titanium native mobile app projects",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": {
+		"name": "Brenton House",
+		"email": "brenton.house@gmail.com",
+		"url": "https://brenton.house"
+	},
+	"repository": {
+		"type": "git",
+		"url": "github:brentonhouse/titanium-eslint-config"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"@geek/eslint-config": "0.0.7"
+	},
+	"keywords": [
+		"titanium",
+		"mobile",
+		"alloy",
+		"eslint",
+		"turbo",
+		"axway",
+		"config",
+		"brentonhouse"
+	]
 }
