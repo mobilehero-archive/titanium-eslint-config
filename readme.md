@@ -27,7 +27,7 @@ npm install --save-dev @titanium/eslint-config
     extends: '@titanium'
 ```
 
-> If using `.eslintrc`
+> If using `.eslintrc` or  `.eslintrc.json`
 
 ```
     "extends": "@titanium",
