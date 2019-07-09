@@ -5,7 +5,7 @@
 
 ## 📝 Description
 
-ESLint settings package for use with Axway Titanium Native mobile apps
+ESLint settings package for use with Axway Titanium native mobile apps
 
 > This extends [@geek/eslint-config](https://github.com/brentonhouse/geek-eslint-config) settings for node.js
 

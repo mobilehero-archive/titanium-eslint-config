@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/eslint-config",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"description": "ESLint configuration for Titanium native mobile app projects",
 	"main": "index.js",
 	"scripts": {
@@ -14,6 +14,9 @@
 	"repository": {
 		"type": "git",
 		"url": "github:brentonhouse/titanium-eslint-config"
+	},
+	"bugs": {
+		"url": "https://github.com/brentonhouse/titanium-eslint-config/issues"
 	},
 	"license": "MIT",
 	"dependencies": {
@@ -33,5 +36,8 @@
 		"iphone",
 		"ipad",
 		"brentonhouse"
-	]
+	],
+	"titanium": {
+		"ignore": true
+	}
 }
