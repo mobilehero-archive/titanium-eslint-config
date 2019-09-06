@@ -20,7 +20,7 @@
 	},
 	"license": "MIT",
 	"dependencies": {
-		"@geek/eslint-config": "0.0.7"
+		"@geek/eslint-config": "0.0.9"
 	},
 	"keywords": [
 		"titanium",
