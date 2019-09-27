@@ -4,7 +4,9 @@
 	"description": "ESLint configuration for Titanium native mobile app projects",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"test": "npm install --ignore-scripts && npm run list-files",
+		"prepublishOnly": "git pull && bump"
 	},
 	"author": {
 		"name": "Brenton House",
