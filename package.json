@@ -4,8 +4,8 @@
 	"description": "ESLint configuration for Titanium native mobile app projects",
 	"main": "index.js",
 	"scripts": {
-		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"test": "npm install --ignore-scripts && npm run list-files",
+		"test": "npm install --ignore-scripts && npm run list",
+		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"prepublishOnly": "git pull && bump"
 	},
 	"author": {
@@ -22,7 +22,10 @@
 	},
 	"license": "MIT",
 	"dependencies": {
-		"@geek/eslint-config": "0.0.9"
+		"@geek/eslint-config": "0.0.10"
+	},
+	"peerDependencies": {
+		"eslint": "^7.1.0"
 	},
 	"keywords": [
 		"titanium",

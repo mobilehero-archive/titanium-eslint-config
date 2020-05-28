@@ -33,7 +33,9 @@
 		"_": "writable",
 		"describe": "readonly",
 		"it": "readonly",
-		"mocha": "readonly"
+		"mocha": "readonly",
+		"turbo": "writable",
+		"URL": "writable"
 	},
 	"rules": {
 		"no-alert": "off"
