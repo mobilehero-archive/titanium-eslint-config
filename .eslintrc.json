@@ -36,6 +36,8 @@
 		"it": "readonly",
 		"mocha": "readonly",
 		"turbo": "writable",
+		"logger": "writable",
+		"JSONC": "writable",
 		"URL": "writable"
 	},
 	"rules": {
