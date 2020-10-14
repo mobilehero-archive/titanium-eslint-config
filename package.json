@@ -22,7 +22,7 @@
 	},
 	"license": "MIT",
 	"dependencies": {
-		"@geek/eslint-config": "0.0.16"
+		"@geek/eslint-config": "0.0.17"
 	},
 	"peerDependencies": {
 		"eslint": "^7.11.0"
