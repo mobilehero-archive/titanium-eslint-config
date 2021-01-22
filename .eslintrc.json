@@ -37,7 +37,8 @@
 		"mocha": "readonly",
 		"turbo": "writable",
 		"logger": "writable",
-		"URL": "writable"
+		"URL": "writable",
+		"IS_DEV": "writable"
 	},
 	"rules": {
 		"no-alert": "off"
