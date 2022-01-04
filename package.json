@@ -1,13 +1,14 @@
 {
 	"name": "@titanium/eslint-config",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "ESLint configuration for Titanium native mobile app projects",
 	"main": "index.js",
 	"scripts": {
 		"test": "npm install --ignore-scripts && npm run list",
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"prepublishOnly2": "git pull && bump release"
+		"prepublishOnly": "git pull && bump insane"
 	},
+	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
 	"author": {
 		"name": "Brenton House",
 		"email": "brenton.house@gmail.com",
@@ -40,6 +41,10 @@
 		"android",
 		"iphone",
 		"ipad",
+		"axway-amplify",
+		"amplify",
+		"titanium-sdk",
+		"api-builder",
 		"brenton-house"
 	],
 	"titanium": {
