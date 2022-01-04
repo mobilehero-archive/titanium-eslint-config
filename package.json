@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/eslint-config",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "ESLint configuration for Titanium native mobile app projects",
 	"main": "index.js",
 	"scripts": {
@@ -25,7 +25,7 @@
 		"@geek/eslint-config": "1.0.1"
 	},
 	"peerDependencies": {
-		"eslint": "^7.18.0"
+		"eslint": "^7.32.0"
 	},
 	"keywords": [
 		"titanium",
