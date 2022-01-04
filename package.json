@@ -1,12 +1,12 @@
 {
 	"name": "@titanium/eslint-config",
-	"version": "1.0.1",
+	"version": "1.0.3",
 	"description": "ESLint configuration for Titanium native mobile app projects",
 	"main": "index.js",
 	"scripts": {
 		"test": "npm install --ignore-scripts && npm run list",
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"prepublishOnly": "git pull && bump release"
+		"prepublishOnly2": "git pull && bump release"
 	},
 	"author": {
 		"name": "Brenton House",
