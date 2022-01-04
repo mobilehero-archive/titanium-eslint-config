@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/eslint-config",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"description": "ESLint configuration for Titanium native mobile app projects",
 	"main": "index.js",
 	"scripts": {
@@ -44,6 +44,7 @@
 		"axway-amplify",
 		"amplify",
 		"titanium-sdk",
+		"axway-sdk",
 		"api-builder",
 		"brenton-house"
 	],
