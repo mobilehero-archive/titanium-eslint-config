@@ -1,12 +1,13 @@
 {
 	"name": "@titanium/eslint-config",
-	"version": "1.0.7",
-	"description": "ESLint configuration for Titanium native mobile app projects",
+	"version": "1.0.8",
+	"description": "⭐ Axway Amplify - ESLint settings package for use with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
 		"test": "npm install --ignore-scripts && npm run list",
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"prepublishOnly": "git pull && bump insane"
+		"prepublishOnly2": "git pull && npm test && bump insane",
+		"prepublishOnly": "git pull && npm test && npm audit fix && bump insane"
 	},
 	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
 	"author": {
@@ -23,10 +24,10 @@
 	},
 	"license": "MIT",
 	"dependencies": {
-		"@geek/eslint-config": "1.0.1"
+		"@geek/eslint-config": "1.0.3"
 	},
 	"peerDependencies": {
-		"eslint": "^7.32.0"
+		"eslint": "^8.6.0"
 	},
 	"keywords": [
 		"titanium",
