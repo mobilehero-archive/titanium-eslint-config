@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/eslint-config",
-	"version": "1.0.40",
+	"version": "1.0.41",
 	"description": "⭐ Axway Amplify module for ESLint settings package with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
